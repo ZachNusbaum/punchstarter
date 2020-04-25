@@ -11,6 +11,11 @@
     </div>
   <% end %>
 
+  <div class="mb-6">
+    <%= form.label :thumbnail, class: 'label' %>
+    <%= form.file_field :thumbnail, class: '' %>
+  </div>
+
   <div class="mb-6"">
     <%= form.label :title, class: 'label' %>
     <%= form.text_field :title, class: 'input' %>
